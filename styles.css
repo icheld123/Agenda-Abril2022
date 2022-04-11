@@ -6,13 +6,14 @@ html {
 /* Encabezado */
 #encabezado {
 	width: 92.1%;
-    height: 12rem;
+    height: 8rem;
 	top: 0;
 	margin: 0;
 	padding: 0 2rem 2rem;
 	background-image: linear-gradient(to left, #2274F2 ,#ffffff);
 	border-top-left-radius: 1rem;
 	border-top-right-radius: 1rem;
+	display: flex;
 	align-items: center;
 	flex-direction: row;
 }
@@ -20,7 +21,7 @@ html {
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 2rem;
 	color: #000000;
-    margin: 0.5rem 0 1.5rem -1rem;
+    margin: 2.5rem -1em 0 0.2rem;
 	line-height: 1;
 }
 h2{
@@ -28,13 +29,14 @@ h2{
 }
 #encabezado img {
 	margin: 1.5rem 1rem 0 -1.5rem;
-	max-width: 100rem;
+	max-width: 90rem;
 	height: auto;
 }
 #texto-header{
-	font-weight:lighter;
+	font-weight:bold;
 	margin-top: 2rem;
-	font-size: 1rem;
+	color: #000000;
+	font-size: 1.2rem;
 }
 /* Barra de navegación Botón dropdown*/
 .navbar {
@@ -44,7 +46,7 @@ h2{
 }
 .navbar a {
 	float: left;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: 700;
 	color: white;
 	text-align: center;
@@ -64,7 +66,7 @@ h2{
 }
 .dropdown .dropbtn {
 	cursor: pointer;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: 700; 
 	border: none;
 	outline: none;
@@ -116,7 +118,7 @@ h2{
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
 	margin: 1rem auto;
-	max-width: 50rem;
+	max-width: 60rem;
 	padding: 1rem auto;
 	background: #fff;
 	border-radius: 1rem;
