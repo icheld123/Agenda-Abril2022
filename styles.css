@@ -6,14 +6,13 @@ html {
 /* Encabezado */
 #encabezado {
 	width: 92.1%;
-    height: 8rem;
+    height: 12rem;
 	top: 0;
 	margin: 0;
 	padding: 0 2rem 2rem;
 	background-image: linear-gradient(to left, #2274F2 ,#ffffff);
 	border-top-left-radius: 1rem;
 	border-top-right-radius: 1rem;
-	display: flex;
 	align-items: center;
 	flex-direction: row;
 }
@@ -21,14 +20,14 @@ html {
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 2rem;
 	color: #000000;
-    margin: 3.5rem 0 1.5rem 0.2rem;
+    margin: 0.5rem 0 1.5rem -1rem;
 	line-height: 1;
 }
 h2{
 	text-align: center;
 }
 #encabezado img {
-	margin: 1.5rem 1rem 0 -0.5rem;
+	margin: 1.5rem 1rem 0 -1.5rem;
 	max-width: 100rem;
 	height: auto;
 }
